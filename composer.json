@@ -1,0 +1,32 @@
+{
+    "name": "wecodedoctor/codedoctorflash",
+    "description": "Custom wordpress theme development builder that created by codedcotor team.",
+    "type": "project",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Niladri Shekhar Mondal",
+            "email": "nldrmondal35@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "htmlburger/carbon-fields": "dev-master",
+        "symfony/serializer": "5.x-dev",
+        "symfony/string": "5.x-dev",
+        "doctrine/collections": "2.0.x-dev",
+        "tgmpa/tgm-plugin-activation": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodedoctorFlash\\": "CodeDoctorFlash/",
+            "CodedoctorWordpressFlashCore\\": "CodedoctorFlashCore/",
+            "CodedoctorWordpressFlashSection\\": "CodedoctorFlashSection/",
+            "CodedoctorFlashAssets\\": "CodeDoctorFlashAssets/",
+            "CodedoctorFlashConfig\\": "CodeDoctorConfig/"
+        },
+        "files": [
+            "CodeDoctorHelpers/LayoutSections.php"
+        ]
+    }
+}
