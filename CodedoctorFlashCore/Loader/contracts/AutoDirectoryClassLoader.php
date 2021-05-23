@@ -13,9 +13,11 @@ trait AutoDirectoryClassLoader
             $loaded_classes = [];
             $scanned_directory = array_diff(scandir($full_path), array('..', '.'));
             foreach ($scanned_directory as $files) {
-                $fileName = preg_replace('/\.php$/', '', $files);
-                $className = $this->_getClassWithNamespace($fileName);
-                $loaded_classes[] = $className::init();
+            	if(preg_match('/\.php$/', $files)) {
+		            $fileName = preg_replace('/\.php$/', '', $files);
+		            $className = $this->_getClassWithNamespace($fileName);
+		            $loaded_classes[] = $className::init();
+	            }
             }
 
             $this->after_class_loaded( $loaded_classes );
