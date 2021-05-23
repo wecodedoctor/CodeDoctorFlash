@@ -1,7 +1,7 @@
 {
     "name": "wecodedoctor/codedoctorflash",
     "description": "Custom wordpress theme development builder that created by codedcotor team.",
-    "type": "project",
+    "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
