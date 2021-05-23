@@ -9,10 +9,10 @@ use function Symfony\Component\String\u;
 
 abstract class AbstractRegisterPostType extends AbstractClassLoader
 {
-    /**
-     * @var string $post_type
-     */
-    protected string $post_type;
+	/**
+	 * @var string
+	 */
+    protected $post_type;
     /**
      * @var string $hook_name
      */

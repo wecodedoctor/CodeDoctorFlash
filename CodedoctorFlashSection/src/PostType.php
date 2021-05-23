@@ -11,7 +11,7 @@ class PostType extends AbstractRegisterPostType
 {
     use ClassInitializer;
 
-    protected string $post_type = 'cf_sections';
+    protected $post_type = 'cf_sections';
 
     public function register_post_type_args(): array
     {
