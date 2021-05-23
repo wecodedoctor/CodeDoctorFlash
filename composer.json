@@ -4,7 +4,6 @@
     "type": "library",
     "license": "Apache-2.0",
     "version": "1.0.1",
-    "prefer-stable": true,
     "keywords": ["Codedoctor", "Wordpress", "Packages"],
     "authors": [
         {
@@ -12,7 +11,7 @@
             "email": "nldrmondal35@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.4",
         "htmlburger/carbon-fields": "^v3.3.2",

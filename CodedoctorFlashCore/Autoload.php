@@ -7,6 +7,7 @@ use CodedoctorWordpressFlashCore\Loader\AbstractClassLoader;
 use CodedoctorWordpressFlashCore\Loader\contracts\ClassInitializer;
 use CodedoctorWordpressFlashCore\RegisterWidget\AutoLoader as AutoloadWidgets;
 use CodedoctorWordpressFlashCore\RegisterPostType\AutoLoader as AutoloadPosttypes;
+use CodedoctorWordpressFlashCore\LoadExtenders\Autoload as AutoloadExtender;
 
 class Autoload extends AbstractClassLoader
 {
@@ -16,5 +17,6 @@ class Autoload extends AbstractClassLoader
     {
         AutoloadWidgets::init();
         AutoloadPosttypes::init();
+	    AutoloadExtender::init();
     }
 }
