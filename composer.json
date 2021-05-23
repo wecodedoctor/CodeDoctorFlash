@@ -13,10 +13,10 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^7.4",
-        "htmlburger/carbon-fields": "dev-master",
-        "symfony/serializer": "5.x-dev",
-        "symfony/string": "5.x-dev",
-        "doctrine/collections": "2.0.x-dev",
+        "htmlburger/carbon-fields": "^v3.3.2",
+        "symfony/serializer": "^5.4.x-dev",
+        "symfony/string": "^5.4.x-dev",
+        "doctrine/collections": "^2.0.x-dev",
         "tgmpa/tgm-plugin-activation": "dev-master"
     },
     "autoload": {
