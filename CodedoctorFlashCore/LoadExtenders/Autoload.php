@@ -10,5 +10,5 @@ use CodedoctorWordpressFlashCore\Loader\contracts\ClassInitializer;
 class Autoload extends AbstractAutoDirectoryFileLoader {
 	use ClassInitializer;
 
-	protected $path = 'extends';
+	protected $path = 'App';
 }
