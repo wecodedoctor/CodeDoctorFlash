@@ -9,7 +9,7 @@
             "email": "nldrmondal35@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "htmlburger/carbon-fields": "dev-master",
         "symfony/serializer": "5.x-dev",
